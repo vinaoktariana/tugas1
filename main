@@ -1,0 +1,33 @@
+# tugas1
+tugas menambahkan fitur code
+
+public class Main {
+    public static void main(String[] args){
+
+        System.out.println("WELCOME TO THE PLAYERS");
+
+        Player pinok=new Player();
+        pinok.name="pinok";
+        pinok.speed=65;
+        pinok.healthpoint=100;
+        pinok.run();
+        pinok.isdead();
+
+        Player ica=new Player();
+        ica.name="ica";
+        ica.speed=60;
+        ica.healthpoint=85;
+        ica.run();
+        ica.isdead();
+
+        Player nazle=new Player();
+        nazle.name="nazle";
+        nazle.speed=40;
+        nazle.healthpoint=50;
+        nazle.run();
+        nazle.isdead();
+
+        pinok.Player();
+        System.out.println("jadi pemenangnya adalah pinok!!!");
+    }
+}
