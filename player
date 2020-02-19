@@ -1,0 +1,33 @@
+# tugas1
+tugas menambahkan fitur code
+
+public class Player {
+    String name; //atribut
+    int speed;
+    int healthpoint;
+
+    public void run(){ //method
+        System.out.println(this.name+ " sedang berlari.. " );
+    }
+    public void isdead() {
+        if (this.healthpoint <=50){
+            System.out.println(this.name+ " anda sudah mati:( " );
+        } else {
+            System.out.println(this.name+ " anda sedang berlari! " );
+        }
+    }
+    public void Player(){
+        System.out.println("pinok mengalahkan nazle");
+        healthpoint=healthpoint+10;
+        System.out.println("pinok berlari mengejar ica");
+        healthpoint=healthpoint-20;
+        System.out.println("jumlah healthpoint pinok sekarang= " +this.healthpoint);
+
+    }
+    public void setHealthpoint(int healthpoint) {
+        this.healthpoint = healthpoint+10;
+        System.out.println("healthpoint yang diterima: healthpoint+10");
+        System.out.println("jumlah healthpoint pinok sekarang= " +this.healthpoint);
+    }
+}
+
